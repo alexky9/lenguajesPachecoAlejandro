@@ -1,0 +1,14 @@
+
+package capitulo2;
+
+public class testimagen {
+
+    public static void main(String[] args) {
+       imagen c=new imagen();
+       c.setalto(-10);
+        System.out.println( c.getalto());
+        c.setancho(-5);
+        System.out.println( c.getancho());
+    }
+    
+}
