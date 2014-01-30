@@ -1,0 +1,27 @@
+
+package capitulo2;
+
+public class imagen {
+    
+    private Integer alto;
+    private Integer ancho;
+    
+    public void setalto(Integer alto){
+    if (alto<0)alto=-alto;
+     this.alto=alto;
+    } 
+    
+    public float getalto(){
+    return alto;
+    }
+
+    
+    public void setancho(Integer ancho){
+    if (ancho<0)ancho=-ancho;
+     this.ancho=ancho;
+    } 
+    public float getancho(){
+    return ancho;
+    }
+}
+   
